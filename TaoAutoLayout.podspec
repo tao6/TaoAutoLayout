@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TaoAutoLayout"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "This is a layout framework for swift."
   s.homepage     = "https://github.com/tao6/TaoAutoLayout"
   s.license      = 'LICENSE'
