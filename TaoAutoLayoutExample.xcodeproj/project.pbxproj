@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A67A62741D2DF2FF00C101B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67A62731D2DF2FF00C101B2 /* AppDelegate.swift */; };
+		A67A627B1D2DF2FF00C101B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A67A627A1D2DF2FF00C101B2 /* Assets.xcassets */; };
+		A67A627E1D2DF2FF00C101B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67A627C1D2DF2FF00C101B2 /* LaunchScreen.storyboard */; };
+		A67A62881D2DF34700C101B2 /* TaoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67A62851D2DF34700C101B2 /* TaoListViewController.swift */; };
+		A67A62891D2DF34700C101B2 /* TaoExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67A62861D2DF34700C101B2 /* TaoExampleViewController.swift */; };
+		A67A628A1D2DF34700C101B2 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67A62871D2DF34700C101B2 /* UIButton+Extension.swift */; };
+		A67A62931D2DF3A300C101B2 /* TaoConstraintExmple.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67A628C1D2DF3A300C101B2 /* TaoConstraintExmple.swift */; };
+		A67A62941D2DF3A300C101B2 /* TaoFillAlignmentExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67A628D1D2DF3A300C101B2 /* TaoFillAlignmentExample.swift */; };
+		A67A62951D2DF3A300C101B2 /* TaoHorizontalAlignmentExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67A628E1D2DF3A300C101B2 /* TaoHorizontalAlignmentExample.swift */; };
+		A67A62961D2DF3A300C101B2 /* TaoHorizontalViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67A628F1D2DF3A300C101B2 /* TaoHorizontalViews.swift */; };
+		A67A62971D2DF3A300C101B2 /* TaoInnerAlignmentExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67A62901D2DF3A300C101B2 /* TaoInnerAlignmentExample.swift */; };
+		A67A62981D2DF3A300C101B2 /* TaoVerticalAlignmentExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67A62911D2DF3A300C101B2 /* TaoVerticalAlignmentExample.swift */; };
+		A67A62991D2DF3A300C101B2 /* TaoVerticalViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67A62921D2DF3A300C101B2 /* TaoVerticalViews.swift */; };
+		A67A629F1D2DF3E200C101B2 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67A629E1D2DF3E200C101B2 /* UIView+AutoLayout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A67A62701D2DF2FF00C101B2 /* TaoAutoLayoutExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaoAutoLayoutExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67A62731D2DF2FF00C101B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A67A627A1D2DF2FF00C101B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A67A627D1D2DF2FF00C101B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A67A627F1D2DF2FF00C101B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A67A62851D2DF34700C101B2 /* TaoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaoListViewController.swift; sourceTree = "<group>"; };
+		A67A62861D2DF34700C101B2 /* TaoExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaoExampleViewController.swift; sourceTree = "<group>"; };
+		A67A62871D2DF34700C101B2 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		A67A628C1D2DF3A300C101B2 /* TaoConstraintExmple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaoConstraintExmple.swift; sourceTree = "<group>"; };
+		A67A628D1D2DF3A300C101B2 /* TaoFillAlignmentExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaoFillAlignmentExample.swift; sourceTree = "<group>"; };
+		A67A628E1D2DF3A300C101B2 /* TaoHorizontalAlignmentExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaoHorizontalAlignmentExample.swift; sourceTree = "<group>"; };
+		A67A628F1D2DF3A300C101B2 /* TaoHorizontalViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaoHorizontalViews.swift; sourceTree = "<group>"; };
+		A67A62901D2DF3A300C101B2 /* TaoInnerAlignmentExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaoInnerAlignmentExample.swift; sourceTree = "<group>"; };
+		A67A62911D2DF3A300C101B2 /* TaoVerticalAlignmentExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaoVerticalAlignmentExample.swift; sourceTree = "<group>"; };
+		A67A62921D2DF3A300C101B2 /* TaoVerticalViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaoVerticalViews.swift; sourceTree = "<group>"; };
+		A67A629E1D2DF3E200C101B2 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A67A626D1D2DF2FF00C101B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A67A62671D2DF2FF00C101B2 = {
+			isa = PBXGroup;
+			children = (
+				A67A62721D2DF2FF00C101B2 /* TaoAutoLayoutExample */,
+				A67A62711D2DF2FF00C101B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A67A62711D2DF2FF00C101B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A67A62701D2DF2FF00C101B2 /* TaoAutoLayoutExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A67A62721D2DF2FF00C101B2 /* TaoAutoLayoutExample */ = {
+			isa = PBXGroup;
+			children = (
+				A67A629D1D2DF3E200C101B2 /* TaoAutoLayout */,
+				A67A628B1D2DF3A300C101B2 /* Examples */,
+				A67A62851D2DF34700C101B2 /* TaoListViewController.swift */,
+				A67A62861D2DF34700C101B2 /* TaoExampleViewController.swift */,
+				A67A62871D2DF34700C101B2 /* UIButton+Extension.swift */,
+				A67A62731D2DF2FF00C101B2 /* AppDelegate.swift */,
+				A67A627A1D2DF2FF00C101B2 /* Assets.xcassets */,
+				A67A627C1D2DF2FF00C101B2 /* LaunchScreen.storyboard */,
+				A67A627F1D2DF2FF00C101B2 /* Info.plist */,
+			);
+			path = TaoAutoLayoutExample;
+			sourceTree = "<group>";
+		};
+		A67A628B1D2DF3A300C101B2 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				A67A628C1D2DF3A300C101B2 /* TaoConstraintExmple.swift */,
+				A67A628D1D2DF3A300C101B2 /* TaoFillAlignmentExample.swift */,
+				A67A628E1D2DF3A300C101B2 /* TaoHorizontalAlignmentExample.swift */,
+				A67A628F1D2DF3A300C101B2 /* TaoHorizontalViews.swift */,
+				A67A62901D2DF3A300C101B2 /* TaoInnerAlignmentExample.swift */,
+				A67A62911D2DF3A300C101B2 /* TaoVerticalAlignmentExample.swift */,
+				A67A62921D2DF3A300C101B2 /* TaoVerticalViews.swift */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		A67A629D1D2DF3E200C101B2 /* TaoAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				A67A629E1D2DF3E200C101B2 /* UIView+AutoLayout.swift */,
+			);
+			path = TaoAutoLayout;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A67A626F1D2DF2FF00C101B2 /* TaoAutoLayoutExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67A62821D2DF2FF00C101B2 /* Build configuration list for PBXNativeTarget "TaoAutoLayoutExample" */;
+			buildPhases = (
+				A67A626C1D2DF2FF00C101B2 /* Sources */,
+				A67A626D1D2DF2FF00C101B2 /* Frameworks */,
+				A67A626E1D2DF2FF00C101B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaoAutoLayoutExample;
+			productName = TaoAutoLayoutExample;
+			productReference = A67A62701D2DF2FF00C101B2 /* TaoAutoLayoutExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A67A62681D2DF2FF00C101B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tao6;
+				TargetAttributes = {
+					A67A626F1D2DF2FF00C101B2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A67A626B1D2DF2FF00C101B2 /* Build configuration list for PBXProject "TaoAutoLayoutExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A67A62671D2DF2FF00C101B2;
+			productRefGroup = A67A62711D2DF2FF00C101B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A67A626F1D2DF2FF00C101B2 /* TaoAutoLayoutExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A67A626E1D2DF2FF00C101B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67A627E1D2DF2FF00C101B2 /* LaunchScreen.storyboard in Resources */,
+				A67A627B1D2DF2FF00C101B2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A67A626C1D2DF2FF00C101B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67A62941D2DF3A300C101B2 /* TaoFillAlignmentExample.swift in Sources */,
+				A67A629F1D2DF3E200C101B2 /* UIView+AutoLayout.swift in Sources */,
+				A67A62951D2DF3A300C101B2 /* TaoHorizontalAlignmentExample.swift in Sources */,
+				A67A62891D2DF34700C101B2 /* TaoExampleViewController.swift in Sources */,
+				A67A62931D2DF3A300C101B2 /* TaoConstraintExmple.swift in Sources */,
+				A67A628A1D2DF34700C101B2 /* UIButton+Extension.swift in Sources */,
+				A67A62741D2DF2FF00C101B2 /* AppDelegate.swift in Sources */,
+				A67A62881D2DF34700C101B2 /* TaoListViewController.swift in Sources */,
+				A67A62971D2DF3A300C101B2 /* TaoInnerAlignmentExample.swift in Sources */,
+				A67A62991D2DF3A300C101B2 /* TaoVerticalViews.swift in Sources */,
+				A67A62961D2DF3A300C101B2 /* TaoHorizontalViews.swift in Sources */,
+				A67A62981D2DF3A300C101B2 /* TaoVerticalAlignmentExample.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A67A627C1D2DF2FF00C101B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A67A627D1D2DF2FF00C101B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A67A62801D2DF2FF00C101B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A67A62811D2DF2FF00C101B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A67A62831D2DF2FF00C101B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaoAutoLayoutExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51zsyl.TaoAutoLayoutExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A67A62841D2DF2FF00C101B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaoAutoLayoutExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.51zsyl.TaoAutoLayoutExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A67A626B1D2DF2FF00C101B2 /* Build configuration list for PBXProject "TaoAutoLayoutExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67A62801D2DF2FF00C101B2 /* Debug */,
+				A67A62811D2DF2FF00C101B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A67A62821D2DF2FF00C101B2 /* Build configuration list for PBXNativeTarget "TaoAutoLayoutExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67A62831D2DF2FF00C101B2 /* Debug */,
+				A67A62841D2DF2FF00C101B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A67A62681D2DF2FF00C101B2 /* Project object */;
+}

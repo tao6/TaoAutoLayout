@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  TaoAutoLayout
+//  TaoAutoLayoutExample
 //
-//  Created by 刘涛 on 16/7/6.
+//  Created by 刘涛 on 16/7/7.
 //  Copyright © 2016年 tao6. All rights reserved.
 //
 
@@ -10,9 +10,9 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
-
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         window?.backgroundColor = UIColor.whiteColor()
@@ -23,7 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         return true
     }
-
-
+    
+    
 }
+
 
