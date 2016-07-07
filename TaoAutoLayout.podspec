@@ -23,5 +23,6 @@ Pod::Spec.new do |s|
   s.authors      = {'tao6' => 'tao6chn@yeah.net'}
   s.platform     = :ios, '8.0'
   s.source       = {:git => 'https://github.com/tao6/TaoAutoLayout.git', :tag => s.version}
+  s.source_files = 'TaoAutoLayout/**/*.{h,m}' 
   s.requires_arc = true
 end
