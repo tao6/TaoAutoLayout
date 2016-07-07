@@ -20,10 +20,10 @@ Pod::Spec.new do |s|
   s.summary      = "This is a layout framework for swift."
   s.homepage     = "https://github.com/tao6/TaoAutoLayout"
   s.license      = 'LICENSE'
-  s.authors      = {'tao6 Lee' => 'tao6chn@yeah.net'}
+  s.authors      = {'tao6' => 'tao6chn@yeah.net'}
   s.platform     = :ios, '8.0'
   s.source       = {:git => 'https://github.com/tao6/TaoAutoLayout.git', :tag => s.version}
-  s.requires_arc = truei
+  s.requires_arc = true
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
