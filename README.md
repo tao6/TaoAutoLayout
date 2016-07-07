@@ -78,40 +78,41 @@
 ```
 <img src="https://github.com/tao6/ImageCache/raw/master/TaoAutoLayout/TaoAutoLayoutExmple.png" width="30%" height="30%">
 
+
 ## <a id="tao_AlignInner"></a>tao_AlignInner
 
 ```swift
     eBtn.tao_AlignInner(type: tao_AlignType.CenterCenter, referView: self, size: CGSizeMake(250, 250))
 ```
-![(控件内部布局)](https://github.com/tao6/ImageCache/raw/master/TaoAutoLayout/tao_AlignInner.png)
+<img src="https://github.com/tao6/ImageCache/raw/master/TaoAutoLayout/tao_AlignInner.png" width="30%" height="30%">
 
 ## <a id="tao_AlignVertical"></a>tao_AlignVertical
 
 ```swift
     tlBtn.tao_AlignVertical(type: tao_AlignType.TopLeft, referView: centerBtn, size: smallSize, offset: CGPointMake(0, -10))
 ```
-![(控件垂直对齐)](https://github.com/tao6/ImageCache/raw/master/TaoAutoLayout/tao_AlignVertical.png)
+<img src="https://github.com/tao6/ImageCache/raw/master/TaoAutoLayout/tao_AlignVertical.png" width="30%" height="30%">
 
 ## <a id="tao_AlignHorizontal"></a>tao_AlignHorizontal
 
 ```swift
     eBtn.tao_AlignHorizontal(type: tao_AlignType.CenterCenter, referView: self, size: CGSizeMake(250, 250))
 ```
-![(控件水平布局)](https://github.com/tao6/ImageCache/raw/master/TaoAutoLayout/tao_AlignHorizontal.png)
+<img src="https://github.com/tao6/ImageCache/raw/master/TaoAutoLayout/tao_alignHorizontal.png" width="30%" height="30%">
 
 ## <a id="tao_HorizontalTile"></a>tao_HorizontalTile
 
 ```swift
     tao_HorizontalTile([lBtn, cBtn, rBtn], insets: UIEdgeInsets.init(top: 74, left: 10, bottom: 10, right: 10))
 ```
-![(视图内部水平平铺控件)](https://github.com/tao6/ImageCache/raw/master/TaoAutoLayout/tao_HorizontalTile.png)
+<img src="https://github.com/tao6/ImageCache/raw/master/TaoAutoLayout/tao_HorizontalTile.png" width="30%" height="30%">
 
 ## <a id="tao_VerticalTile"></a>tao_VerticalTile
 
 ```swift
     tao_VerticalTile([tBtn, cBtn, bBtn], insets: UIEdgeInsets.init(top: 74, left: 10, bottom: 10, right: 10))
 ```
-![(视图内部垂直平铺控件)](https://github.com/tao6/ImageCache/raw/master/TaoAutoLayout/tao_VerticalTile.png)
+<img src="https://github.com/tao6/ImageCache/raw/master/TaoAutoLayout/tao_VerticalTile.png" width="30%" height="30%">
 
 ## <a id="tao_Constraint"></a>tao_Constraint
 
@@ -120,7 +121,7 @@
     btnWidth = btn!.tao_Constraint(cons, attribute: NSLayoutAttribute.Width)
     btnHeight = btn!.tao_Constraint(cons, attribute: NSLayoutAttribute.Height)
 ```
-![(指定 attribute 的约束)](https://github.com/tao6/ImageCache/raw/master/TaoAutoLayout/tao_Constraint.gif)
+<img src="https://github.com/tao6/ImageCache/raw/master/TaoAutoLayout/tao_Constraint.gif" width="30%" height="30%">
 
 ### Installation with CocoaPods
 
