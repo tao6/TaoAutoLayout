@@ -1,4 +1,4 @@
-<img src="https://github.com/tao6/ImageCache/raw/master/TaoAutoLayout/logo.png" width="50%" height="50%">
+<img src="https://github.com/tao6/ImageCache/raw/master/TaoAutoLayout/logo.png" width="30%" height="30%">
 # TaoAutoLayout
 * 这是一个swift的轻量级自动布局框架
 
