@@ -1,4 +1,4 @@
-![(logo)](http://images.cnitblog.com/blog2015/497279/201505/051004492043385.png)
+<img src="https://github.com/tao6/ImageCache/raw/master/TaoAutoLayout/logo.png" width="50%" height="50%">
 # TaoAutoLayout
 * 这是一个swift的轻量级自动布局框架
 
